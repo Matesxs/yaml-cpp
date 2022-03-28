@@ -8,10 +8,7 @@ project "yaml-cpp"
   targetdir("bin/" .. outputdir .. "/%{prj.name}")
   objdir("bin-int/" .. outputdir .. "/%{prj.name}")
 
-  defines
-  {
-    "YAML_CPP_STATIC_DEFINE"
-  }
+  defines "YAML_CPP_STATIC_DEFINE"
 
   files
   {
